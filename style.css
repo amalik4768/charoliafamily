@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f8f9fa;
+    text-align: center;
+    padding: 20px;
+}
+#tree {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.node {
+    background: white;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.connector {
+    height: 20px;
+    border-left: 2px solid #ccc;
+    margin: auto;
+}
+.children {
+    display: flex;
+    justify-content: center;
+}
