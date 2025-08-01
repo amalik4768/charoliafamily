@@ -1,17 +1,17 @@
 const familyTreeData = {
-    name: "King George VI",
+    name: "Wazir Ali Charolia",
     children: [
         {
-            name: "Queen Elizabeth II",
+            name: "Maru Ben",
             children: [
-                { name: "Charles III" },
-                { name: "Princess Anne" },
-                { name: "Prince Andrew" },
-                { name: "Prince Edward" }
+                { name: "Kassam ali Charolia" },
+                { name: "AkbarALI charolia" },
+                { name: "Noor ali Charolia" },
+                { name: "Sultan Ali Charolia" }
             ]
         },
         {
-            name: "Princess Margaret"
+            name: "Amina Charolia"
         }
     ]
 };
