@@ -1,17 +1,19 @@
+// Edit this file to update your family structure
 const familyTreeData = {
-    name: "Wazir Ali Charolia",
-    children: [
-        {
-            name: "Maru Ben",
-            children: [
-                { name: "Kassam ali Charolia" },
-                { name: "AkbarALI charolia" },
-                { name: "Noor ali Charolia" },
-                { name: "Sultan Ali Charolia" }
-            ]
-        },
-        {
-            name: "Amina Charolia"
-        }
-    ]
+  name: "Ancestor Name",
+  children: [
+    {
+      name: "Child 1",
+      children: [
+        { name: "Grandchild 1" },
+        { name: "Grandchild 2" }
+      ]
+    },
+    {
+      name: "Child 2",
+      children: [
+        { name: "Grandchild 3" }
+      ]
+    }
+  ]
 };

@@ -1,29 +1,38 @@
 body {
-    font-family: Arial, sans-serif;
-    background: #f8f9fa;
-    text-align: center;
-    padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  text-align: center;
+  padding: 20px;
 }
+
+h1 {
+  margin-bottom: 30px;
+}
+
 #tree {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
 .node {
-    background: white;
-    border: 2px solid #ccc;
-    border-radius: 10px;
-    padding: 10px;
-    margin: 10px;
-    width: 200px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  background: #ffffff;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px;
+  width: 220px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
+
 .connector {
-    height: 20px;
-    border-left: 2px solid #ccc;
-    margin: auto;
+  height: 20px;
+  border-left: 2px solid #ccc;
+  margin: auto;
 }
+
 .children {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
