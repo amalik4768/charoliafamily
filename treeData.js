@@ -9,9 +9,10 @@ const familyTreeData = {
                 { name: "Noorali Charolia" },
                 { name: "Sultan Charolia" }
             ]
-      
-           Daughter name: "Amina Charolia"
+            Daughter: [
+                { name: "Amina Charolia"  },
                 { name: "Kulsum Charolia" },
     ]
 };
+
 
